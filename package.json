@@ -1,0 +1,26 @@
+{
+  "name": "junshi",
+  "version": "1.0.0",
+  "description": "junshi",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\t\t"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "zhimin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5"
+  }
+}

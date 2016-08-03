@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="email=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="keywords" content="未来网，团中央，共青团，红领巾，少先队，青少年，孩子，新闻，资讯，国内，国际，财经，图片，社会，军事，娱乐，文化，国学，教育，视频，未成年人，婴儿，幼儿，小学,中学，国学 军事频道">
+  <meta name="description" content="未来网是党中央交由团中央主办的面向全国未成年人的专属网站,内容覆盖国内外综合新闻资讯、生活资讯,设幼儿、小学、中学、红领巾等专栏、频道,弘扬社会主义核心价值观,传递正能量,未来网上有未来 军事频道">
+  <title> 名片 </title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/iconfont/iconfont.css">
+  <link rel="stylesheet" href="./css/card.css">
+</head>
+<body>
+<div class="card-container">
+  <div class="main-layout">
+    <div class="card-line clearFix">
+      <div class="line-circle bounceIn">
+        <em class="circle"></em>
+      </div>
+      <div class="line-move">
+        <div class="line-top widthLineMove"></div>
+        <div class="line-move-bottom bottomLineMove"></div>
+      </div>
+    </div>
+    <div class="card-intro lightSpeedIn"></div>
+    <div class="card-pic bounceIn">
+      <div class="pic-bg-circle">
+        <img class="pic-photo" src="./img/two-demision.jpg" alt="头像">
+      </div>
+    </div>
+    <div class="card-logo flipInY">
+      <div class="logo-pic"></div>
+    </div>
+    <p class="card-professional jello">
+      <em class="pro-name"> 名字 </em>
+      <span class="pro-professional"> 副总裁/常务副总编辑 </span>
+    </p>
+  </div>
+  <div class="info-layout slideInUp">
+    <ul class="info-content clearFix">
+      <li>
+        <a class="info-tel" href="tel:13911666539">
+          <i class="icon iconfont icon-shouji"></i>
+          <em class="info-txt"> 13333333333 </em>
+        </a>
+      </li>
+      <li>
+        <a class="info-phone" href="tel:010-57380516">
+
+          <i class="icon iconfont icon-dianhua-copy"></i>
+          <em class="info-txt"> 010-33333333 </em>
+        </a>
+      </li>
+      <li>
+        <a class="info-email" href="mailto:42687213@qq.com">
+          <i class="icon iconfont icon-youxiang01"></i>
+          <em class="info-txt"> 33333333@qq.com </em>
+        </a>
+      </li>
+      <li class="info-fax">
+        <i class="icon iconfont icon-chuanzhen"></i>
+        <em class="info-txt info-fax-txt"> 010-33333333 </em>
+      </li>
+      <li class="info-address">
+        <i class="icon iconfont icon-brand"></i>
+        <em class="info-txt info-address-txt"> 北京市海淀区学院南路12号京师科技大厦 A 座15层 </em>
+      </li>
+    </ul>
+  </div>
+  <div class="card-pic-show slideInUp">
+    <div class="card-slogan">
+      <img src="./img/slogan.png" alt="爱心传递希望 专业成就未来" width="100%">
+    </div>
+    <div class="card-two-demision">
+      <img class="demision-pic" src="./img/two-demision.jpg" alt="微信二维码" width="100%">
+      <b class="blink-spot blink top"></b>
+      <b class="blink-spot blink-big top"></b>
+      <b class="blink-spot blink right"></b>
+      <b class="blink-spot blink-big right"></b>
+      <b class="blink-spot blink bottom"></b>
+      <b class="blink-spot blink-big bottom"></b>
+      <b class="blink-spot blink left"></b>
+      <b class="blink-spot blink-big left"></b>
+    </div>
+  </div>
+</div>
+
+<script>
+  /*设置设备的rem值*/
+  (function (doc, win) {
+    // 设置 rem
+    var docEl = doc.documentElement,
+      base = 540,
+      resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+      recalculate = function () {
+        var clientWidth = docEl.clientWidth;
+        if (!clientWidth) return;
+        if (clientWidth >= base) {
+          clientWidth = base;
+        }
+        var size = clientWidth / 375 * 100;
+        docEl.style.fontSize = size + 'px';
+      };
+
+    if (!doc.addEventListener) return;
+    win.addEventListener(resizeEvt, recalculate, false);
+    doc.addEventListener('DOMContentLoaded', recalculate, false);
+  })(document, window);
+</script>
+</body>
+</html>
